@@ -1,7 +1,10 @@
 module.exports = {
-  content: ["./**/*.{html,js}"],
-  theme: {
+  plugins: [],
+    theme: {
     extend: {},
   },
-  plugins: [],
+  content: ["./index.html",'./src/**/*.{svelte,js,ts}'], // for unused CSS
+  variants: {
+    extend: {},
+  },
 }
